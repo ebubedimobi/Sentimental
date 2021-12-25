@@ -32,7 +32,7 @@ enum TextClassifierResult: String {
         case .pos:
             return ["cat_happy", "mascot", "star"].randomElement() ?? "cat"
         case .neutral:
-            return ["emoji", "swinging_neutral"].randomElement() ?? "emoji"
+            return ["emoji_neutral", "swinging_neutral"].randomElement() ?? "emoji"
         case .negative:
             return ["cat_sad", "emoji_sad", "swinging_sad", "heart"].randomElement() ?? "heart" 
         }
