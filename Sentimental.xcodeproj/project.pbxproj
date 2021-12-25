@@ -10,9 +10,21 @@
 		B2B017A927775B21008A3786 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B017A827775B21008A3786 /* AppDelegate.swift */; };
 		B2B017AB27775B21008A3786 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B017AA27775B21008A3786 /* SceneDelegate.swift */; };
 		B2B017AD27775B21008A3786 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B017AC27775B21008A3786 /* ViewController.swift */; };
-		B2B017B027775B21008A3786 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B017AE27775B21008A3786 /* Main.storyboard */; };
 		B2B017B227775B22008A3786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2B017B127775B22008A3786 /* Assets.xcassets */; };
 		B2B017B527775B23008A3786 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B017B327775B23008A3786 /* LaunchScreen.storyboard */; };
+		B2B017BE27775DBA008A3786 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B2B017BD27775DBA008A3786 /* SnapKit */; };
+		B2B017C0277776DB008A3786 /* TextSentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B2B017BF277776DB008A3786 /* TextSentimentClassifier.mlmodel */; };
+		B2B017C227777715008A3786 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B017C127777715008A3786 /* Manager.swift */; };
+		B2B017C527777FBF008A3786 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = B2B017C427777FBF008A3786 /* Lottie */; };
+		B2B017D32777804B008A3786 /* cat_happy.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017C82777804B008A3786 /* cat_happy.json */; };
+		B2B017D42777804B008A3786 /* star.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017C92777804B008A3786 /* star.json */; };
+		B2B017D52777804B008A3786 /* mascot.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017CA2777804B008A3786 /* mascot.json */; };
+		B2B017D62777804B008A3786 /* emoji_sad.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017CC2777804B008A3786 /* emoji_sad.json */; };
+		B2B017D72777804B008A3786 /* cat_sad.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017CD2777804B008A3786 /* cat_sad.json */; };
+		B2B017D82777804B008A3786 /* swinging_sad.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017CE2777804B008A3786 /* swinging_sad.json */; };
+		B2B017D92777804B008A3786 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017CF2777804B008A3786 /* heart.json */; };
+		B2B017DA2777804B008A3786 /* emoji_neutral.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017D12777804B008A3786 /* emoji_neutral.json */; };
+		B2B017DB2777804B008A3786 /* swinging_neutral.json in Resources */ = {isa = PBXBuildFile; fileRef = B2B017D22777804B008A3786 /* swinging_neutral.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +32,20 @@
 		B2B017A827775B21008A3786 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2B017AA27775B21008A3786 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B2B017AC27775B21008A3786 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B2B017AF27775B21008A3786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2B017B127775B22008A3786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2B017B427775B23008A3786 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2B017B627775B23008A3786 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2B017BF277776DB008A3786 /* TextSentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = TextSentimentClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
+		B2B017C127777715008A3786 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		B2B017C82777804B008A3786 /* cat_happy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cat_happy.json; sourceTree = "<group>"; };
+		B2B017C92777804B008A3786 /* star.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = star.json; sourceTree = "<group>"; };
+		B2B017CA2777804B008A3786 /* mascot.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mascot.json; sourceTree = "<group>"; };
+		B2B017CC2777804B008A3786 /* emoji_sad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji_sad.json; sourceTree = "<group>"; };
+		B2B017CD2777804B008A3786 /* cat_sad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cat_sad.json; sourceTree = "<group>"; };
+		B2B017CE2777804B008A3786 /* swinging_sad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swinging_sad.json; sourceTree = "<group>"; };
+		B2B017CF2777804B008A3786 /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		B2B017D12777804B008A3786 /* emoji_neutral.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emoji_neutral.json; sourceTree = "<group>"; };
+		B2B017D22777804B008A3786 /* swinging_neutral.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = swinging_neutral.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B017BE27775DBA008A3786 /* SnapKit in Frameworks */,
+				B2B017C527777FBF008A3786 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,14 +81,56 @@
 			isa = PBXGroup;
 			children = (
 				B2B017A827775B21008A3786 /* AppDelegate.swift */,
+				B2B017BF277776DB008A3786 /* TextSentimentClassifier.mlmodel */,
 				B2B017AA27775B21008A3786 /* SceneDelegate.swift */,
 				B2B017AC27775B21008A3786 /* ViewController.swift */,
-				B2B017AE27775B21008A3786 /* Main.storyboard */,
+				B2B017C127777715008A3786 /* Manager.swift */,
+				B2B017C62777804B008A3786 /* Animations */,
 				B2B017B127775B22008A3786 /* Assets.xcassets */,
 				B2B017B327775B23008A3786 /* LaunchScreen.storyboard */,
 				B2B017B627775B23008A3786 /* Info.plist */,
 			);
 			path = Sentimental;
+			sourceTree = "<group>";
+		};
+		B2B017C62777804B008A3786 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				B2B017C72777804B008A3786 /* happy */,
+				B2B017CB2777804B008A3786 /* sad */,
+				B2B017D02777804B008A3786 /* neutral */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		B2B017C72777804B008A3786 /* happy */ = {
+			isa = PBXGroup;
+			children = (
+				B2B017C82777804B008A3786 /* cat_happy.json */,
+				B2B017C92777804B008A3786 /* star.json */,
+				B2B017CA2777804B008A3786 /* mascot.json */,
+			);
+			path = happy;
+			sourceTree = "<group>";
+		};
+		B2B017CB2777804B008A3786 /* sad */ = {
+			isa = PBXGroup;
+			children = (
+				B2B017CC2777804B008A3786 /* emoji_sad.json */,
+				B2B017CD2777804B008A3786 /* cat_sad.json */,
+				B2B017CE2777804B008A3786 /* swinging_sad.json */,
+				B2B017CF2777804B008A3786 /* heart.json */,
+			);
+			path = sad;
+			sourceTree = "<group>";
+		};
+		B2B017D02777804B008A3786 /* neutral */ = {
+			isa = PBXGroup;
+			children = (
+				B2B017D12777804B008A3786 /* emoji_neutral.json */,
+				B2B017D22777804B008A3786 /* swinging_neutral.json */,
+			);
+			path = neutral;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +149,10 @@
 			dependencies = (
 			);
 			name = Sentimental;
+			packageProductDependencies = (
+				B2B017BD27775DBA008A3786 /* SnapKit */,
+				B2B017C427777FBF008A3786 /* Lottie */,
+			);
 			productName = Sentimental;
 			productReference = B2B017A527775B21008A3786 /* Sentimental.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +181,10 @@
 				Base,
 			);
 			mainGroup = B2B0179C27775B21008A3786;
+			packageReferences = (
+				B2B017BC27775DBA008A3786 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				B2B017C327777FBE008A3786 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = B2B017A627775B21008A3786 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +199,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B017D72777804B008A3786 /* cat_sad.json in Resources */,
 				B2B017B527775B23008A3786 /* LaunchScreen.storyboard in Resources */,
+				B2B017DA2777804B008A3786 /* emoji_neutral.json in Resources */,
 				B2B017B227775B22008A3786 /* Assets.xcassets in Resources */,
-				B2B017B027775B21008A3786 /* Main.storyboard in Resources */,
+				B2B017DB2777804B008A3786 /* swinging_neutral.json in Resources */,
+				B2B017D82777804B008A3786 /* swinging_sad.json in Resources */,
+				B2B017D32777804B008A3786 /* cat_happy.json in Resources */,
+				B2B017D92777804B008A3786 /* heart.json in Resources */,
+				B2B017D52777804B008A3786 /* mascot.json in Resources */,
+				B2B017D62777804B008A3786 /* emoji_sad.json in Resources */,
+				B2B017D42777804B008A3786 /* star.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B017C0277776DB008A3786 /* TextSentimentClassifier.mlmodel in Sources */,
 				B2B017AD27775B21008A3786 /* ViewController.swift in Sources */,
 				B2B017A927775B21008A3786 /* AppDelegate.swift in Sources */,
 				B2B017AB27775B21008A3786 /* SceneDelegate.swift in Sources */,
+				B2B017C227777715008A3786 /* Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B2B017AE27775B21008A3786 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B2B017AF27775B21008A3786 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B2B017B327775B23008A3786 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -293,7 +369,7 @@
 				INFOPLIST_FILE = Sentimental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +396,7 @@
 				INFOPLIST_FILE = Sentimental/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +434,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B2B017BC27775DBA008A3786 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B2B017C327777FBE008A3786 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B2B017BD27775DBA008A3786 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2B017BC27775DBA008A3786 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		B2B017C427777FBF008A3786 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B2B017C327777FBE008A3786 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B2B0179D27775B21008A3786 /* Project object */;
 }
