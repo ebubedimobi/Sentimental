@@ -11,7 +11,7 @@ import Lottie
 
 class ViewController: UIViewController {
     
-   
+    
     private var result: TextClassifierResult?
     
     private let manager = Manager()
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         button.titleLabel?.font = .systemFont(ofSize: 18.0)
         button.backgroundColor = .black
         button.addTarget(self, action: #selector(didTapPredictButton(_:)), for: .touchUpInside)
-
+        
         return button
     }()
     
@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         if let result = manager.getPrediction(on: text) {
             resultLabel.text = result.outputText
             resultLabel.sizeToFit()
-//            setupTextColor(with: result)
+            //            setupTextColor(with: result)
             setAnimationWithResult(result)
         }
     }
@@ -79,7 +79,7 @@ class ViewController: UIViewController {
             self.inputTextView.backgroundColor = color
         }
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Sentimetal"
@@ -116,8 +116,6 @@ class ViewController: UIViewController {
             make.bottom.equalTo(view.safeAreaLayoutGuide.snp.bottom).inset(16.0)
         }
     }
-
-
 }
 
 
@@ -138,7 +136,7 @@ extension ViewController {
     private func lottieAnimationWithResult(_ result: TextClassifierResult) -> Lottie.Animation? {
         return Lottie.Animation.named(result.AnimationName)
     }
-   
+    
 }
 
 class TextFieldWithPadding: UITextField {
@@ -148,12 +146,12 @@ class TextFieldWithPadding: UITextField {
         bottom: 10,
         right: 20
     )
-
+    
     override func textRect(forBounds bounds: CGRect) -> CGRect {
         let rect = super.textRect(forBounds: bounds)
         return rect.inset(by: textPadding)
     }
-
+    
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
         let rect = super.editingRect(forBounds: bounds)
         return rect.inset(by: textPadding)
